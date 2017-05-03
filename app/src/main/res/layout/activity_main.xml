@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainBackground"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.example.android.katybplayer.MainActivity">
+
+    <RelativeLayout style="@style/main_lp_relative_layouts">
+
+        <ImageView
+            android:id="@+id/cover_on_a_mission"
+            style="@style/main_lp_covers"
+            android:src="@drawable/cover_on_a_mission_2" />
+
+        <TextView
+            style="@style/main_lp_titles"
+            android:layout_toRightOf="@id/cover_on_a_mission"
+            android:text="@string/on_a_mission" />
+
+    </RelativeLayout>
+
+    <RelativeLayout style="@style/main_lp_relative_layouts">
+
+        <ImageView
+            android:id="@+id/cover_little_red"
+            style="@style/main_lp_covers"
+            android:src="@drawable/cover_little_red_2" />
+
+        <TextView
+            style="@style/main_lp_titles"
+            android:layout_toRightOf="@id/cover_little_red"
+            android:text="@string/little_red" />
+    </RelativeLayout>
+
+    <RelativeLayout style="@style/main_lp_relative_layouts">
+
+        <ImageView
+            android:id="@+id/cover_honey"
+            style="@style/main_lp_covers"
+            android:src="@drawable/cover_honey_2" />
+
+        <TextView
+            style="@style/main_lp_titles"
+            android:layout_toRightOf="@id/cover_honey"
+            android:text="@string/honey" />
+    </RelativeLayout>
+
+    <RelativeLayout style="@style/main_lp_relative_layouts">
+
+        <ImageView
+            android:id="@+id/icon_playlists"
+            style="@style/main_lp_covers"
+            android:src="@drawable/icon_playlist_2" />
+
+        <TextView
+            style="@style/main_lp_titles"
+            android:layout_toRightOf="@id/icon_playlists"
+            android:text="@string/playlists" />
+    </RelativeLayout>
+
+    <RelativeLayout style="@style/main_lp_relative_layouts">
+
+        <ImageView
+            android:id="@+id/icon_videos"
+            style="@style/main_lp_covers"
+            android:src="@drawable/icon_video_2" />
+
+        <TextView
+            style="@style/main_lp_titles"
+            android:layout_toRightOf="@id/icon_videos"
+            android:text="@string/videos" />
+    </RelativeLayout>
+
+</LinearLayout>
