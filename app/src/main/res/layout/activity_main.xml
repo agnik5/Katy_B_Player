@@ -1,79 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/mainBackground"
-    android:orientation="vertical"
-    android:paddingLeft="16dp"
-    android:paddingRight="16dp"
-    android:paddingTop="16dp"
+    style="@style/scroll_views"
     tools:context="com.example.android.katybplayer.MainActivity">
 
-    <RelativeLayout style="@style/main_lp_relative_layouts">
-
-        <ImageView
-            android:id="@+id/cover_on_a_mission"
-            style="@style/main_lp_covers"
-            android:src="@drawable/cover_on_a_mission_2" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
         <TextView
-            style="@style/main_lp_titles"
-            android:layout_toRightOf="@id/cover_on_a_mission"
-            android:text="@string/on_a_mission" />
-
-    </RelativeLayout>
-
-    <RelativeLayout style="@style/main_lp_relative_layouts">
-
-        <ImageView
-            android:id="@+id/cover_little_red"
-            style="@style/main_lp_covers"
-            android:src="@drawable/cover_little_red_2" />
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/description_main"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
 
         <TextView
-            style="@style/main_lp_titles"
-            android:layout_toRightOf="@id/cover_little_red"
-            android:text="@string/little_red" />
-    </RelativeLayout>
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:gravity="center_vertical"
+            android:text="@string/choose_album_to_play"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
 
-    <RelativeLayout style="@style/main_lp_relative_layouts">
+        <RelativeLayout
+            android:id="@+id/on_a_mission"
+            style="@style/main_lp_relative_layouts">
 
-        <ImageView
-            android:id="@+id/cover_honey"
-            style="@style/main_lp_covers"
-            android:src="@drawable/cover_honey_2" />
+            <ImageView
+                android:id="@+id/cover_on_a_mission"
+                style="@style/main_lp_covers"
+                android:src="@drawable/cover_on_a_mission_2" />
 
-        <TextView
-            style="@style/main_lp_titles"
-            android:layout_toRightOf="@id/cover_honey"
-            android:text="@string/honey" />
-    </RelativeLayout>
+            <TextView
+                style="@style/main_lp_titles"
+                android:layout_toRightOf="@id/cover_on_a_mission"
+                android:text="@string/on_a_mission" />
 
-    <RelativeLayout style="@style/main_lp_relative_layouts">
+        </RelativeLayout>
 
-        <ImageView
-            android:id="@+id/icon_playlists"
-            style="@style/main_lp_covers"
-            android:src="@drawable/icon_playlist_2" />
+        <RelativeLayout
+            android:id="@+id/little_red"
+            style="@style/main_lp_relative_layouts">
 
-        <TextView
-            style="@style/main_lp_titles"
-            android:layout_toRightOf="@id/icon_playlists"
-            android:text="@string/playlists" />
-    </RelativeLayout>
+            <ImageView
+                android:id="@+id/cover_little_red"
+                style="@style/main_lp_covers"
+                android:src="@drawable/cover_little_red_2" />
 
-    <RelativeLayout style="@style/main_lp_relative_layouts">
+            <TextView
+                style="@style/main_lp_titles"
+                android:layout_toRightOf="@id/cover_little_red"
+                android:text="@string/little_red" />
+        </RelativeLayout>
 
-        <ImageView
-            android:id="@+id/icon_videos"
-            style="@style/main_lp_covers"
-            android:src="@drawable/icon_video_2" />
+        <RelativeLayout
+            android:id="@+id/honey"
+            style="@style/main_lp_relative_layouts">
 
-        <TextView
-            style="@style/main_lp_titles"
-            android:layout_toRightOf="@id/icon_videos"
-            android:text="@string/videos" />
-    </RelativeLayout>
+            <ImageView
+                android:id="@+id/cover_honey"
+                style="@style/main_lp_covers"
+                android:src="@drawable/cover_honey_2" />
 
-</LinearLayout>
+            <TextView
+                style="@style/main_lp_titles"
+                android:layout_toRightOf="@id/cover_honey"
+                android:text="@string/honey" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

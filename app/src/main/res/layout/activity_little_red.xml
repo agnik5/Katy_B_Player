@@ -1,13 +1,280 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/mainBackground"
-    android:orientation="vertical"
-    android:paddingLeft="16dp"
-    android:paddingRight="16dp"
-    android:paddingTop="16dp"
-    tools:context="com.example.android.katybplayer.MainActivity">
+    style="@style/scroll_views"
+    tools:context="com.example.android.katybplayer.LittleRed">
 
-</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/description_album"
+            android:textColor="@color/white" />
+
+        <LinearLayout style="@style/album_song_linear_layout">
+
+            <ImageView
+                style="@style/main_lp_covers"
+                android:src="@drawable/cover_little_red_2" />
+
+            <TextView
+                style="@style/album_song_title"
+                android:layout_marginLeft="16dp"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/play_album_or_songs" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/album_song_linear_layout">
+
+            <TextView
+                style="@style/album_song_title"
+                android:text="@string/whole_album" />
+
+            <ImageView
+                style="@style/play_pause_stop_buttons"
+                android:src="@drawable/play_48" />
+
+            <ImageView
+                style="@style/play_pause_stop_buttons"
+                android:src="@drawable/pause_48" />
+
+            <ImageView
+                style="@style/play_pause_stop_buttons"
+                android:src="@drawable/stop_48" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/album_song_linear_layout">
+
+            <TextView
+                style="@style/album_song_title"
+                android:text="@string/next_thing" />
+
+            <ImageView
+                style="@style/play_pause_stop_buttons"
+                android:src="@drawable/play_48" />
+
+            <ImageView
+                style="@style/play_pause_stop_buttons"
+                android:src="@drawable/pause_48" />
+
+            <ImageView
+                style="@style/play_pause_stop_buttons"
+                android:src="@drawable/stop_48" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/album_song_linear_layout">
+
+            <TextView
+                style="@style/album_song_title"
+                android:text="@string/_5_am" />
+
+            <ImageView
+                style="@style/play_pause_stop_buttons"
+                android:src="@drawable/play_48" />
+
+            <ImageView
+                style="@style/play_pause_stop_buttons"
+                android:src="@drawable/pause_48" />
+
+            <ImageView
+                style="@style/play_pause_stop_buttons"
+                android:src="@drawable/stop_48" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/album_song_linear_layout">
+
+            <TextView
+                style="@style/album_song_title"
+                android:text="@string/aaliyah" />
+
+            <ImageView
+                style="@style/play_pause_stop_buttons"
+                android:src="@drawable/play_48" />
+
+            <ImageView
+                style="@style/play_pause_stop_buttons"
+                android:src="@drawable/pause_48" />
+
+            <ImageView
+                style="@style/play_pause_stop_buttons"
+                android:src="@drawable/stop_48" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/album_song_linear_layout">
+
+            <TextView
+                style="@style/album_song_title"
+                android:text="@string/crying_for_no_reason" />
+
+            <ImageView
+                style="@style/play_pause_stop_buttons"
+                android:src="@drawable/play_48" />
+
+            <ImageView
+                style="@style/play_pause_stop_buttons"
+                android:src="@drawable/pause_48" />
+
+            <ImageView
+                style="@style/play_pause_stop_buttons"
+                android:src="@drawable/stop_48" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/album_song_linear_layout">
+
+            <TextView
+                style="@style/album_song_title"
+                android:text="@string/i_like_you" />
+
+            <ImageView
+                style="@style/play_pause_stop_buttons"
+                android:src="@drawable/play_48" />
+
+            <ImageView
+                style="@style/play_pause_stop_buttons"
+                android:src="@drawable/pause_48" />
+
+            <ImageView
+                style="@style/play_pause_stop_buttons"
+                android:src="@drawable/stop_48" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/album_song_linear_layout">
+
+            <TextView
+                style="@style/album_song_title"
+                android:text="@string/all_my_lovin" />
+
+            <ImageView
+                style="@style/play_pause_stop_buttons"
+                android:src="@drawable/play_48" />
+
+            <ImageView
+                style="@style/play_pause_stop_buttons"
+                android:src="@drawable/pause_48" />
+
+            <ImageView
+                style="@style/play_pause_stop_buttons"
+                android:src="@drawable/stop_48" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/album_song_linear_layout">
+
+            <TextView
+                style="@style/album_song_title"
+                android:text="@string/tumbling_down" />
+
+            <ImageView
+                style="@style/play_pause_stop_buttons"
+                android:src="@drawable/play_48" />
+
+            <ImageView
+                style="@style/play_pause_stop_buttons"
+                android:src="@drawable/pause_48" />
+
+            <ImageView
+                style="@style/play_pause_stop_buttons"
+                android:src="@drawable/stop_48" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/album_song_linear_layout">
+
+            <TextView
+                style="@style/album_song_title"
+                android:text="@string/everything" />
+
+            <ImageView
+                style="@style/play_pause_stop_buttons"
+                android:src="@drawable/play_48" />
+
+            <ImageView
+                style="@style/play_pause_stop_buttons"
+                android:src="@drawable/pause_48" />
+
+            <ImageView
+                style="@style/play_pause_stop_buttons"
+                android:src="@drawable/stop_48" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/album_song_linear_layout">
+
+            <TextView
+                style="@style/album_song_title"
+                android:text="@string/play" />
+
+            <ImageView
+                style="@style/play_pause_stop_buttons"
+                android:src="@drawable/play_48" />
+
+            <ImageView
+                style="@style/play_pause_stop_buttons"
+                android:src="@drawable/pause_48" />
+
+            <ImageView
+                style="@style/play_pause_stop_buttons"
+                android:src="@drawable/stop_48" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/album_song_linear_layout">
+
+            <TextView
+                style="@style/album_song_title"
+                android:text="@string/sapphire_blue" />
+
+            <ImageView
+                style="@style/play_pause_stop_buttons"
+                android:src="@drawable/play_48" />
+
+            <ImageView
+                style="@style/play_pause_stop_buttons"
+                android:src="@drawable/pause_48" />
+
+            <ImageView
+                style="@style/play_pause_stop_buttons"
+                android:src="@drawable/stop_48" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/album_song_linear_layout">
+
+            <TextView
+                style="@style/album_song_title"
+                android:text="@string/emotions" />
+
+            <ImageView
+                style="@style/play_pause_stop_buttons"
+                android:src="@drawable/play_48" />
+
+            <ImageView
+                style="@style/play_pause_stop_buttons"
+                android:src="@drawable/pause_48" />
+
+            <ImageView
+                style="@style/play_pause_stop_buttons"
+                android:src="@drawable/stop_48" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/album_song_linear_layout">
+
+            <TextView
+                style="@style/album_song_title"
+                android:text="@string/still" />
+
+            <ImageView
+                style="@style/play_pause_stop_buttons"
+                android:src="@drawable/play_48" />
+
+            <ImageView
+                style="@style/play_pause_stop_buttons"
+                android:src="@drawable/pause_48" />
+
+            <ImageView
+                style="@style/play_pause_stop_buttons"
+                android:src="@drawable/stop_48" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

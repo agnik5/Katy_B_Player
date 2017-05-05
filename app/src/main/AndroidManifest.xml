@@ -25,12 +25,6 @@
         <activity
             android:name=".Honey"
             android:label="Honey" />
-        <activity
-            android:name=".Playlists"
-            android:label="Playlists" />
-        <activity
-            android:name=".Videos"
-            android:label="Videos" />
     </application>
 
 </manifest>
