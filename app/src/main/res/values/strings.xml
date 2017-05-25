@@ -45,5 +45,5 @@
     <string name="dreamerz">Dreamerz</string>
     <string name="honey_outro">Honey (Outro)</string>
     <string name="description_main">This is a start screen of Katy B Player, an app that plays Katy B albums. Here a user chooses LP they want to play. Tapping on LP Relative Layout redirects the user to another screen showing this particular album. </string>
-    <string name="description_album">This is a screen for one of three Katy B albums. It contains a list of songs. The user can choose between listening to the whole album or to the songs of their choice. They can use play, pause and stop buttons for that. The app would have its own music files database.</string>
+    <string name="description_album">This is a screen for one of three Katy B albums. It contains a list of songs. The user can choose between listening to the whole album or to the songs of their choice. They can use play, pause and stop buttons for that. The app would have its own music files database and would use MediaPlayer class as it is the primary API for playing sound and video.</string>
 </resources>
